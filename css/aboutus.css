@@ -1,0 +1,141 @@
+.aboutthem {
+  background: #011627 url(../imgs/bg3.png);
+  display: flex;
+}
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutus__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+}
+.aboutus__left_title {
+  font-family: "Noe Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.aboutus__left_subtitle {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: 321px;
+  margin-top: 22px;
+  margin-bottom: 38px;
+}
+.aboutus__right {
+  display: flex;
+  padding-left: 86px;
+}
+.aboutus__dots{
+ margin-left: 10px;
+
+}
+.thoughts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 275px;
+  background: #011627;
+  border-radius: 8px;
+  padding: 100px 0;
+  align-items: center;
+}
+
+.people__top_title {
+  font-family: "Noe Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.people__top_subtitle {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  margin-top: 31px;
+  margin-bottom: 73px;
+}
+.people__bottom_cringe {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+.people__bottom_cringe-box__info h2 {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 190%;
+  color: #ffffff;
+}
+.people__bottom_cringe-box__info span {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 190%;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.people__bottom_cringe-box {
+  display: flex;
+  justify-content: flex-start;
+  background: #02223b;
+  box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
+  border-radius: 5px;
+  padding: 75px 75px 75px 50px;
+  width: 510px;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+.people__bottom_cringe-box__info {
+  display: flex;
+  flex-direction: column;
+}
+.people__bottom_cringe-box__img {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  margin-top: 25px;
+}
+.people__bottom_cringe-box__img img {
+  border-radius: 4px;
+}
+
+.people__bottom_cringe-box__img span {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

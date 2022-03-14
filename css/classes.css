@@ -1,0 +1,38 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 20px 58px;
+  background: #00c9e0;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  border-radius: 48px;
+  font-family: Larsseit, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border: 3px solid #00c9e0;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  background: none;
+  color: #00c9e0;
+  cursor: pointer;
+}
+
+.socialnetwork{
+  cursor: pointer;
+}
+.line__btn {
+  position: absolute;
+  right: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+}

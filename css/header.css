@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: Playfair, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 190%;
+  color: #ffffff;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+.search:hover{
+  width: 28px;
+  height: 28px;
+  transition: 0.3s;
+  cursor: pointer;
+}
