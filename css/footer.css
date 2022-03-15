@@ -24,7 +24,7 @@
 .footer__row_bottom {
   display: flex;
   justify-content: center;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;

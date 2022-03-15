@@ -40,9 +40,8 @@
   display: flex;
   padding-left: 86px;
 }
-.aboutus__dots{
- margin-left: 10px;
-
+.aboutus__dots {
+  margin-left: 10px;
 }
 .thoughts {
   display: flex;
@@ -52,6 +51,7 @@
   border-radius: 8px;
   padding: 100px 0;
   align-items: center;
+  position: relative;
 }
 
 .people__top_title {
@@ -111,8 +111,13 @@
   width: 510px;
   align-items: flex-start;
   column-gap: 20px;
+  transition: 0.8s;
 }
-
+.people__bottom_cringe-box:hover {
+  transition: 0.8s;
+  background: #0b3453;
+  cursor: pointer;
+}
 .people__bottom_cringe-box__info {
   display: flex;
   flex-direction: column;
@@ -138,4 +143,39 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.thoughts__line {
+  position: absolute;
+  top: -40px;
+}
+.aboutus__right_first-btn {
+  padding: 26px 19px;
+  background: #ffffff;
+
+  border-radius: 8px;
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: absolute;
+  top: 260px;
+  left: -50px;
+  transition: 0.8s;
+}
+.aboutus__right_first-btn:hover {
+  transition: 0.8s;
+  background: #02223b;
+  color: #ffffff;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  cursor: pointer;
+}
+.aboutus__right_first {
+  position: relative;
+}
+
+.aboutus__right_first-btn span {
+  color: #00c9e0;
 }

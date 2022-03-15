@@ -28,8 +28,11 @@
 }
 
 .socialnetwork{
+  position: relative;
+  z-index: 5;
   cursor: pointer;
 }
+
 .line__btn {
   position: absolute;
   right: -17px;

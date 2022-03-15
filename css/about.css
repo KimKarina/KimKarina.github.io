@@ -2,7 +2,10 @@
   padding: 20px;
   background-color: #011627;
   position: relative;
-  height: 1200px;
+}
+.active{
+  transition: 0.5s;
+  opacity: 100%;
 }
 .about__landscape {
   display: flex;
@@ -10,7 +13,6 @@
   align-items: center;
   margin-top: 150px;
 }
-
 
 .about__row {
   display: flex;
@@ -68,12 +70,11 @@
   padding-bottom: 37px;
   transition: 0.5s;
 }
-.about__swipline_chill:hover {
+
+.active{
   transition: 0.5s;
   opacity: 100%;
-  cursor: pointer;
 }
-
 .swiper__img {
   width: 486px;
   height: 607px;
@@ -107,7 +108,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-
 }
 
 .about__landscapes_right-title {
@@ -132,11 +132,12 @@
   column-gap: 23px;
   position: relative;
 }
-.social__line{
+.social__line {
   position: absolute;
   top: 50%;
+  z-index: 0;
 }
-.about__landscape_middle{
+.about__landscape_middle {
   position: relative;
   z-index: 10;
   display: flex;
@@ -145,11 +146,37 @@
   padding-left: 126px;
   align-items: start;
 }
-.about__landscape_left{
+.about__landscape_left {
   position: relative;
 }
-.about__dots{
+.about__dots {
   position: absolute;
   left: -55px;
   bottom: -55px;
+}
+.about__landscape_left-titleandnumder {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -92px;
+}
+.about__landscape_left-titleandnumder h2 {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #41ead4;
+}
+.about__landscape_left-titleandnumder span {
+  font-family: "Larsseit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  margin-top: 12px;
 }
