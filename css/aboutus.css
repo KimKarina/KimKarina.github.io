@@ -1,10 +1,12 @@
 .aboutthem {
   background: #011627 url(../imgs/bg3.png);
   display: flex;
+  
 }
 .aboutus {
   display: flex;
   justify-content: space-between;
+  margin-top: 295px;
 }
 .aboutus__left {
   display: flex;

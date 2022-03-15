@@ -15,7 +15,7 @@ $(document).ready(function() {
         $('.chill4').removeClass('active');
         $('.about__landscape_middle-title').text("Chill Adventure");
         $('.about__landscape_left-numberPage').text("01");
-        $('.about__landscape_left-pageInfo').html("Wonderful <br> adventures");
+        $('.about__landscape_left-pageInfo').html("WONDERFUL <br> ADVENTURES");
     });
 });
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
         $('.about__landscape_middle-title').text("Spooky Times");
         $('.about__landscape_left-numberPage').text("02");
         //Поменяй здесь в конце текст
-        $('.about__landscape_left-pageInfo').html("ПОМЕНЯЙ ТЕКСТ <br> ТЕКСТ");
+        $('.about__landscape_left-pageInfo').html("SCARY AS HELL");
 
     });
 });
@@ -42,7 +42,7 @@ $(document).ready(function() {
         $('.about__landscape_middle-title').text("Desert Madness");
         $('.about__landscape_left-numberPage').text("03");
         //Поменяй здесь в конце текст
-        $('.about__landscape_left-pageInfo').html("ПОМЕНЯЙ ТЕКСТ <br> ТЕКСТ");
+        $('.about__landscape_left-pageInfo').html("GRAND DUNES <br> LANDSCAPE");
 
 
     });
@@ -57,6 +57,6 @@ $(document).ready(function() {
         $('.about__landscape_middle-title').text("Out in the wild");
         $('.about__landscape_left-numberPage').text("04");
         //Поменяй здесь в конце текст
-        $('.about__landscape_left-pageInfo').html("ПОМЕНЯЙ ТЕКСТ <br> ТЕКСТ");
+        $('.about__landscape_left-pageInfo').html("BEAUTY OF <br> WILD NATURE");
     });
 });

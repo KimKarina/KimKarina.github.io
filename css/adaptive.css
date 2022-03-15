@@ -161,28 +161,7 @@
   }
 }
 
-@media (max-width: 580px) {
-  .people__bottom_cringe-box {
-    width: auto;
-  }
-  .people__bottom_cringe {
-    padding: 20px;
-  }
-  .item {
-    width: 350px;
-    height: 450px;
-  }
-  .about__landscape_middle {
-    margin-top: 50px;
-  }
-  .swiper__img {
-    width: 350px;
-    height: 450px;
-  }
-  .about__landscape_right {
-    padding-right: 40px;
-  }
-}
+
 @media (max-width: 580px) {
   .about {
     padding: 0;
@@ -203,6 +182,29 @@
   }
   .thoughts {
     padding-bottom: 50px;
+  }
+  .people__bottom_cringe-box {
+    width: auto;
+  }
+  .people__bottom_cringe {
+    padding: 20px;
+  }
+  .item {
+    width: 350px;
+    height: 450px;
+  }
+  .about__landscape_middle {
+    margin-top: 50px;
+  }
+  .swiper__img {
+    width: 350px;
+    height: 450px;
+  }
+  .about__landscape_right {
+    padding-right: 40px;
+  }
+  .home{
+    padding-top: 30px;
   }
 }
 
