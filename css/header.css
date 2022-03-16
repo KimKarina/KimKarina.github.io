@@ -30,4 +30,7 @@
   transition: 0.3s;
   cursor: pointer;
 }
+.home__titles_endTitle{
+  text-align: center;
+}
 
